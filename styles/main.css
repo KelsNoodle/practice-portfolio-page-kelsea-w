@@ -1,10 +1,13 @@
 body {
+
     background-color: rgb(77, 77, 77);
+    background-image: url("../media/background.png");
     font-family: Helvetica, sans-serif, Arial;
     color:rgb(255, 255, 255);
 }
 
 h1{
+
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -19,12 +22,116 @@ hr {
     border-color: black;
 }
 
+div {
+	display: flex;
+}
+
+.footer{
+    flex-shrink: 0;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.box {
+  background-color: rgba(153, 153, 153, 0.509);
+  box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.9);
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  width: 50%;
+  border-radius: 10px;
+  height: 300px;
+  padding: 15px;
+  
+}
+
+.box2 {
+  background-color: rgba(0, 0, 0, 0.544);
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.38);
+  color: white;
+  vertical-align: bottom;
+  justify-content:safe;
+  width: 25%;
+  height: 5%;
+  border-radius: 15px;
+  padding: 15px;
+  
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.field-with-label {
+	flex-direction: column;
+	width: 260px;
+	margin-bottom: 8px;
+}
+
+.field-error {
+	border: 2px solid crimson;
+}
+
+.form-group {
+	margin-top: 20px;
+}
+
+.checkbox-label,
+#omit-address2 {
+	vertical-align: middle;
+	font-size: 0.6rem;
+}
+
+#omit-address2 {
+	margin-left: 12px;
+}
+
+#quantity-input {
+	width: 80px;
+}
+
+.radio-group > label {
+	color: #333;
+	text-transform: none;
+}
+
+#save-button {
+	background-color: #006686;
+	width: 80px;
+	margin-left: 10px;
+}
+#save-button:hover {
+	background-color: #0184ac;
+}
+
+#reset-button {
+	background-color: #9d1405;
+}
+#reset-button:hover {
+	background-color: #b81706;
+}
+
+#thank-you {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	max-width: 1000px;
+	margin: 30px auto 60px;
+}
+
 .button {
     justify-content: center;
     text-align: center;
     align-items: center;
     text-decoration: none;
-    background-color: rgb(0, 0, 0);
+    background-color: hsla(0, 0%, 0%, 0.541);
     padding: 10px 20px;
     border-color: color;
     border-radius: 10px;
@@ -41,7 +148,7 @@ hr {
     border: none;
     outline: none;
     color: #fff;
-    background: #363636;
+    background: hsla(0, 0%, 21%, 0.473);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -88,7 +195,7 @@ hr {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #111;
+    background: #252525b4;
     left: 0;
     top: 0;
     border-radius: 10px;
