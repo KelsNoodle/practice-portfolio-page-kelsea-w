@@ -28,7 +28,10 @@ div {
 }
 
 .footer{
-    flex-shrink: 0;
+    position: fixed;
+    left: 40%;
+    bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .content {
