@@ -30,9 +30,9 @@ div {
 
 .footer{
     position: fixed;
-    left: 40%;
     bottom: 10px;
-    padding-bottom: 10px;
+    padding-bottom:10px;
+    width:100%;
 }
 
 .content {
@@ -142,7 +142,7 @@ div {
     border-color: color;
     border-radius: 10px;
     color: rgb(0, 174, 26);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     margin: 15px;
     
