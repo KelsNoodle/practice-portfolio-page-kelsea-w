@@ -72,7 +72,7 @@ div {
     flex-direction: column-reverse;
 }
 
-a.plain-text {
+.plain-text {
       text-decoration: none;
       color: inherit;
     }
